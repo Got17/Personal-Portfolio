@@ -2,3 +2,38 @@
     font-weight: bold;
     color: #B80F0A;
 }
+
+.aboutme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 50px;
+}
+
+.aboutme-left-side {
+    width: 80%;
+    margin-right: 30px;
+}
+
+.aboutme-picture {
+    width: 100%;
+}
+
+.aboutme-right-side {
+    line-height: 2;
+    font-size: 18px;
+    margin-right: 50px;
+    text-align: justify;
+}
+
+.aboutme-others {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-header {
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
