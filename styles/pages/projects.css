@@ -2,3 +2,49 @@
     font-weight: bold;
     color: #B80F0A;
 }
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+    margin: 50px 0px;
+    /* border: 1px solid #000; */
+}
+
+.project-texts {
+    font-size: 2.1vw;
+    line-height: 2;
+}
+
+.project-header {
+    display: flex;
+}
+
+.project-name {
+    font-weight: bold;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 0 20px;
+}
+
+.project-number {
+    border-bottom: 2px solid black;
+    padding: 0 20px;
+}
+
+.project-detail {
+    font-size: 1.2vw;
+    margin-top: 20px;
+    padding: 0 20px;
+}
+
+.project-picture-container {
+    /* border: 1px solid #000; */
+    width: 30%;
+}
+
+.project-picture {
+    width: 100%;
+}
+
